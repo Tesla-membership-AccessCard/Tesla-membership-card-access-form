@@ -1,30 +1,311 @@
-<section class="cards">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinchung Wong | Tesla Foundation Membership</title>
 
-<div class="card gold">
-    <h3>VIP Beneficiary</h3>
-    <p>
-        Priority access to member programs,
-        networking opportunities and premium benefits.
-    </p>
-    <span>$1,000</span>
-</div>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
 
-<div class="card silver">
-    <h3>Investor Membership</h3>
-    <p>
-        Participation in community initiatives,
-        educational resources and member events.
-    </p>
-    <span>$2,500</span>
-</div>
+body{
+background:#0a0a0a;
+color:white;
+line-height:1.6;
+}
 
-<div class="card bronze">
-    <h3>Visitor Access</h3>
-    <p>
-        General membership with access to
-        public programs and newsletters.
-    </p>
-    <span>$4,000</span>
-</div>
+.hero{
+background:linear-gradient(135deg,#111,#1a1a1a,#202020);
+padding:60px 20px;
+text-align:center;
+border-bottom:2px solid #e82127;
+}
 
+.hero h1{
+font-size:48px;
+color:#e82127;
+margin-bottom:10px;
+}
+
+.hero h2{
+font-size:24px;
+font-weight:300;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+.profile{
+background:#111;
+padding:30px;
+border-radius:15px;
+border:1px solid #333;
+margin-bottom:40px;
+}
+
+.profile h3{
+color:#e82127;
+margin-bottom:20px;
+font-size:28px;
+}
+
+.info-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:15px;
+}
+
+.info{
+background:#181818;
+padding:15px;
+border-radius:10px;
+}
+
+.cards-title{
+text-align:center;
+font-size:36px;
+margin-bottom:30px;
+color:#e82127;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:linear-gradient(145deg,#1b1b1b,#111);
+padding:25px;
+border-radius:20px;
+border:2px solid #e82127;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+font-size:26px;
+color:#e82127;
+margin-bottom:15px;
+}
+
+.level{
+font-size:18px;
+margin-bottom:10px;
+}
+
+.price{
+font-size:32px;
+font-weight:bold;
+color:#00ff95;
+margin-top:15px;
+}
+
+.newsletter{
+margin-top:60px;
+background:#111;
+padding:40px;
+border-radius:15px;
+text-align:center;
+}
+
+.newsletter h2{
+color:#e82127;
+margin-bottom:20px;
+}
+
+input, select{
+width:100%;
+padding:14px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+font-size:16px;
+}
+
+button{
+background:#e82127;
+color:white;
+padding:15px 30px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:18px;
+margin-top:15px;
+}
+
+button:hover{
+background:#ff3d44;
+}
+
+.footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:#111;
+border-top:1px solid #333;
+}
+
+.tesla-logo{
+font-size:60px;
+color:#e82127;
+margin-bottom:10px;
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+<div class="tesla-logo">TESLA</div>
+<h1>Tesla Foundation Membership</h1>
+<h2>Official Membership Profile</h2>
 </section>
+
+<div class="container">
+
+<div class="profile">
+<h3>Member Information</h3>
+
+<div class="info-grid">
+
+<div class="info">
+<strong>Full Name:</strong><br>
+Kinchung Wong
+</div>
+
+<div class="info">
+<strong>Date of Birth:</strong><br>
+28/11/1955
+</div>
+
+<div class="info">
+<strong>Email:</strong><br>
+Kcwongjinan@gmail.com
+</div>
+
+<div class="info">
+<strong>Phone Number:</strong><br>
+852 91206791
+</div>
+
+<div class="info">
+<strong>Address:</strong><br>
+Room 5, 22/Floor, Block F,<br>
+Golden Lion Garden Phase 1,<br>
+Tai Wai, Hong Kong
+</div>
+
+<div class="info">
+<strong>Gender:</strong><br>
+Male
+</div>
+
+<div class="info">
+<strong>Membership Status:</strong><br>
+Active Member
+</div>
+
+<div class="info">
+<strong>Membership ID:</strong><br>
+TSF-2026-KW-1955
+</div>
+
+</div>
+</div>
+
+<h2 class="cards-title">Tesla Foundation Membership Cards</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>VIP Beneficiary</h3>
+<p class="level">Tesla Foundation Elite Access</p>
+<p>Priority Member Benefits</p>
+<p>Exclusive Tesla Events</p>
+<p>Premium Community Access</p>
+<div class="price">$1000</div>
+</div>
+
+<div class="card">
+<h3>Investor</h3>
+<p class="level">Tesla Foundation Investor Program</p>
+<p>Investment Opportunities</p>
+<p>Private Updates</p>
+<p>Premium Membership Support</p>
+<div class="price">$2500</div>
+</div>
+
+<div class="card">
+<h3>Visitor</h3>
+<p class="level">Tesla Foundation Visitor Pass</p>
+<p>Community Access</p>
+<p>Visitor Events</p>
+<p>General Membership Benefits</p>
+<div class="price">$4000</div>
+</div>
+
+</div>
+
+<div class="newsletter">
+
+<h2>Subscribe For Tesla Foundation Updates</h2>
+
+<form>
+
+<input type="email" placeholder="Enter Your Email" required>
+
+<input type="tel" placeholder="Enter Your Phone Number" required>
+
+<select id="paymentMethod">
+<option value="">Select Payment Method</option>
+<option value="Bitcoin">Bitcoin</option>
+<option value="Solana">Solana</option>
+<option value="Binance Coin">Binance Coin</option>
+<option value="AlipayHK">AlipayHK</option>
+</select>
+
+<button type="button" onclick="redirectToPayment()">
+Subscribe Now
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Tesla Foundation Membership Portal
+</div>
+
+<script>
+function redirectToPayment() {
+
+let payment =
+document.getElementById("paymentMethod").value;
+
+if(payment === ""){
+alert("Please select a payment method.");
+return;
+}
+
+window.location.href =
+"https://phantom.com/user/Elonmuskempowerment";
+}
+</script>
+
+</body>
+</html>
